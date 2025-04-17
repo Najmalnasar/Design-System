@@ -2,7 +2,7 @@ import React from "react";
 import TypographyType from "./type";
 const Typography = ({
   tag,
-  text = "text not requried ",
+  text = "Next  ",
   children,
   className,
   style,
