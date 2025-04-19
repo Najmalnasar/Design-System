@@ -1,13 +1,13 @@
 import React from "react";
-import TypographyType from "./type";
+import TypographyTypeProps from "./type";
 const Typography = ({
   tag,
-  text = "Next  ",
+  text = "",
   children,
   className,
   style,
   role,
-}: TypographyType) => {
+}: TypographyTypeProps) => {
   return React.createElement(tag, { className, style }, text, children, role);
 };
 

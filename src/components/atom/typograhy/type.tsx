@@ -1,7 +1,7 @@
 import React from "react";
 import { JSX } from "react";
 
-interface TypographyType {
+interface TypographyTypeProps {
   text?: string;
   tag: keyof JSX.IntrinsicElements;
   className?: string;
@@ -10,4 +10,4 @@ interface TypographyType {
   role?: string;
 }
 
-export default TypographyType;
+export default TypographyTypeProps;

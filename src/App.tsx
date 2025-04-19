@@ -1,23 +1,18 @@
 import "./App.css";
-import Typography from "./components/atom/typograhy/Typography";
+import Button from "./components/atom/button/Button";
 
 function App() {
   return (
     <>
-      <Typography
-        tag="h1"
-        text="welcome to Design Sysytem...."
-        style={{ color: "red" }}
+      <Button
+        type="button"
+        className="bg-blue-400 py-5 px-6 font-bold
+        rounded-lg hover:bg-blue-800 transition-all duration-100"
+        disabled
+        autoFocus
+        text=""
       />
-      <Typography tag="h1" text="software" className="h2head">
-        <span style={{ color: "blue" }}>&nbsp; Engineer</span>
-      </Typography>
-      <Typography tag="h1" role="React" style={{ color: "skyblue" }} />
-      <Typography
-        tag="strong"
-        text="Front end Developer"
-        style={{ fontSize: "90px", color: "green" }}
-      />
+      Subscribe Design System page
     </>
   );
 }
